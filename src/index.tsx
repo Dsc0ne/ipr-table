@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import MainPage from "./components/main-page/main-page";
 import reportWebVitals from './reportWebVitals';
+import {Provider} from "react-redux";
+import {dateTimeStore} from "./components/store/stores";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Provider store={dateTimeStore}>
+    <MainPage />
+    </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function

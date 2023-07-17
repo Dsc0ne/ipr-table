@@ -1,0 +1,41 @@
+.table-time-line {
+  margin-top: 73px;
+
+  &__buttons {
+    margin-bottom: 25px;
+  }
+
+  &__body {
+    display: flex;
+    gap: 25px;
+
+
+  }
+  &__body-item {
+    padding: 25px;
+    background: #0000ff1c;
+    border: 1px solid #80808033;
+  }
+
+  &__body-item-date {
+    text-align: center;
+  }
+  &__body-item-times {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  &__body-item-selects {
+    display: flex;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 15px;
+  }
+
+}
+
+

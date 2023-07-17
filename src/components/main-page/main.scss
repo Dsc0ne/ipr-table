@@ -1,0 +1,11 @@
+.main-container {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+
+  &__title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}

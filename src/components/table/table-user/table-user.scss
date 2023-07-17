@@ -1,0 +1,16 @@
+.table-user-line {
+  width: 300px;
+  margin: 0 auto;
+  height: 100%;
+
+  &__name {
+    margin-top: 68%;
+  }
+  &__name-item{
+    margin: 15px;
+    border: 1px solid gray;
+    height: 42px;
+    text-align: center;
+    background: #ff000021;
+  }
+}
